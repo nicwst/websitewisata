@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jatim Park 1</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #f0f7ff; 
+            color: rgb(51, 51, 51); 
+            line-height: 1.6;
+        }
+        header { 
+            background: linear-gradient(to right, #5f35d3, #a995ce);
+            color: white; 
+            text-align: center; 
+            padding: 30px 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            opacity: 0.9;
+            font-style: italic;
+        }
+        nav { 
+            background-color: #e68ad6; 
+            color: white; 
+            padding: 15px; 
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        nav a { 
+            color: white; 
+            margin: 0 20px; 
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        nav a:hover { 
+            color: #ffd700;
+            background-color: rgba(255,255,255,0.1);
+        }
+        section { 
+            padding: 30px; 
+            margin: 25px auto; 
+            background-color: white; 
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            max-width: 1200px;
+        }
+        h2 { 
+            color: #1e3c72; 
+            border-bottom: 3px solid #ffd700;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        .gallery { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 15px; 
+            justify-content: center;
+        }
+        .gallery img { 
+            width: 280px; 
+            height: 200px; 
+            object-fit: cover; 
+            border-radius: 8px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+            border: 3px solid #eaeaea;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        footer { 
+            text-align: center; 
+            padding: 20px; 
+            background-color: #2c3e50; 
+            color: white;
+            margin-top: 40px;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            border-radius: 10px;
+            border: none;
+            margin-top: 20px;
+        }
+        address {
+            font-style: normal;
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #1e3c72;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .price-item {
+            background-color: #f8f9fa;
+            padding: 10px 15px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+            border-left: 4px solid #ffd700;
+        }
+        .highlight {
+            color: #1e3c72;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang Jatim Park 1</h1>
+        <p>Pertualangan Tak Terlupakan Di Jawa Timur</p>
+    </header>
+
+    <nav>
+        <a href="#location">Lokasi</a>
+        <a href="#photos">Foto</a>
+        <a href="#description">Deskripsi</a>
+        <a href="#history">Sejarah</a>
+        <a href="#opening-hours">Jam Kunjungan</a>
+        <a href="#ticket-prices">Harga Tiket</a>
+        <a href="#gallery">Galeri</a>
+        <a href="#contact">Kontak</a>
+        <a href="#fun-facts">Tentang Kami</a>
+    </nav>
+
+    <section id="location">
+        <h2>Lokasi</h2>
+        <p>Jatim Park 1terletak di:</p>
+        <address>
+            Jl. Kartika No.2, Sisir, Kec. Batu, Kota Batu, Jawa Timur 65315, Indonesia.
+        
+        </address>
+        <p>Terletak di kawasan strategis Kota Batu, berdekatan dengan berbagai hotel dan pusat kuliner. </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.123456789012!2d112.5234567890123!3d-7.876543210987654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7881234567890%3A0x123456789abcdef!2sJatim%20Park%201!5e0!3m2!1sen!2sid!4v1234567890123!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section id="photos">
+        <h2>Foto Utama</h2>
+        <div class="gallery">
+            <img src="dinopark.jpg" alt="Pemandangan Istana Neuschwanstein dari kejauhan">
+            <img src="entrancejatim.jpeg" alt="Interior mewah istana">
+            <img src="hati.jpg" alt="Istana dilihat dari Jembatan Mary">
+            <img src="kolam.jpg" alt="Istana di musim salju">
+        </div>
+    </section>
+
+    <section id="description">
+        <h2>Deskripsi</h2>
+        <p>Jatim Park 1 menghadirkan pengalaman liburan keluarga terbaik di Kota Batu dengan konsep unik yang memadukan wahana pemacu adrenalin dan taman edukasi interaktif. Sebagai destinasi 'Science & Coaster Park' terkemuka, pengunjung dapat menantang keberanian di wahana ikonik seperti Superman Coaster, Flying Tornado, dan Pendulum 360 yang baru saja beroperasi kembali, atau menjelajahi kecanggihan teknologi terbaru di Metaverse Glass Theater. Tak hanya hiburan, website kami menyediakan panduan lengkap mulai dari eksplorasi alat peraga di Science Center, ribuan artefak di Indonesia Heritage Museum, hingga tiket terusan praktis menuju Museum Angkut dan Museum Tubuh. Dengan fasilitas lengkap seperti Shuttle Car, Food Court bertema, hingga Pasar Wisata, Jatim Park 1 adalah pilihan sempurna untuk petualangan seru sekaligus wawasan budaya bagi segala usia.</p>
+    </section>
+
+    <section id="history">
+        <h2>Sejarah</h2>
+        <p>Jatim Park 1 didirikan pada tahun 2001 oleh Jawa Timur Park Group sebagai taman eduwisata pertama di Jawa Timur yang mengusung konsep "edutainment" - pendidikan melalui hiburan. Ide pembangunannya berawal dari visi untuk menciptakan destinasi wisata yang tidak hanya menghibur tetapi juga mendidik, khususnya bagi generasi muda.</p>
+    </section>
+
+    <section id="opening-hours">
+        <h2>Jam Kunjungan</h2>
+        <p>Jatim Park 1 buka untuk kunjungan sepanjang tahun dengan jadwal berikut:</p>
+        <ul>
+            <li><span class="highlight">Senin-Jumat</span> 09:00 - 17:00</li>
+            <li><span class="highlight">Sabtu-Minggu:</span> 08:00 - 18:00</li>
+            <li><span class="highlight">Libur Nasional:</span> 08:00 - 18:00</li>
+             </ul>
+        
+    </section>
+
+    <section id="ticket-prices">
+        <h2>Harga Tiket</h2>
+        <div class="price-item"> <li>Jatim Park 1 + Museum Tubuh : 135k</li></div>
+           
+        <div class="price-item"> <li>Jatim Park 1 + Museum Angkut : 180k</li></div>
+            
+        <div class="price-item"><li>Jatim Park 1 + Museum Tubuh + Museum Angkut : 210k</li>
+            
+    </div>
+        <div class="price-item"><li>Jatim Park 1 + Museum Tubuh + Museum Angkut : 210k</li>
+            </div>
+        <div class="price-item"><li>Museum Angkut : 120k</li></div>
+        
+    </section>
+
+   
+    <section id="gallery">
+        <h2>Galeri</h2>
+        <div class="gallery">
+            <img src="artgerden.jpg"alt="Art Garden">
+            <img src="bagong.jpeg" alt="Bagong Jatim Park">
+            <img src="coaster.jpeg" alt="Roller Coaster">
+            <img src="ulet.jpg" alt="Roller Coaster Anak-Anak">
+            <img src="jatim.jpg" alt="Pintu Masuk">
+            <img src="pontang.jpg" alt="Wahana Pontang-Pontang">
+            <img src="superman.jpg" alt="Roller Coaster Superman">
+            <img src="angkut.jpg" alt="Museum Angkut">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak & Informasi</h2>
+        <p><strong>Pusat Tiket:</strong></p>
+        <p>Jl. Kartika No. 2, Sisir. Jatim Park 2 (Batu Secret Zoo & Museum Satwa) di Jl. Oro-Oro Ombo No. 9. Jatim Park 3 (Dino Park & Millennial Glow) di Jl. Ir. Soekarno No. 144, Beji</p>
+        <p>Telepon: +49 (0)8362 93083-0</p>
+        <p>Email: info@ticket-center-hohenschwangau.de</p>
+        <p>Website Resmi: <a href="https://jtp.id/jatimpark1/mobile/index.html" target="_blank">https://jtp.id/jatimpark1/mobile/index.html</a></p>
+        <p><strong>Untuk reservasi online:</strong> <a href="https://ticket.jtp.id/?_gl=1*1i5m3vq*_ga*MTA5NTA4NzM0My4xNzcwODY4MTQ2*_ga_4EPMJ11PHW*czE3NzA4NjgxNDYkbzEkZzAkdDE3NzA4NjgxNDYkajYwJGwwJGgw" target="_blank">https://ticket.jtp.id/?_gl=1*1i5m3vq*_ga*MTA5NTA4NzM0My4xNzcwODY4MTQ2*_ga_4EPMJ11PHW*czE3NzA4NjgxNDYkbzEkZzAkdDE3NzA4NjgxNDYkajYwJGwwJGgw</a></p>
+    </section>
+
+    <section id="fun-facts">
+        <h2>Fakta Menarik</h2>
+        <ul>
+            <li>Felix Antonio</li>
+            <li>Jeremia Alexandriano Setiadi</li>
+            <li>David Kent Halim Salim</li>
+            <li>Tiffany Emelia</li>
+            <li>Nicole Cecilia</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Situs ini dibuat oleh murid SMA Kristen Karunia</p>
+    </footer>
+</body>
+</html>

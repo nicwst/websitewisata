@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Istana Neuschwanstein - Kastil Dongeng Bavaria</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #f0f7ff; 
+            color: #333; 
+            line-height: 1.6;
+        }
+        header { 
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white; 
+            text-align: center; 
+            padding: 30px 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            opacity: 0.9;
+            font-style: italic;
+        }
+        nav { 
+            background-color: #2c3e50; 
+            color: white; 
+            padding: 15px; 
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        nav a { 
+            color: white; 
+            margin: 0 20px; 
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        nav a:hover { 
+            color: #ffd700;
+            background-color: rgba(255,255,255,0.1);
+        }
+        section { 
+            padding: 30px; 
+            margin: 25px auto; 
+            background-color: white; 
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            max-width: 1200px;
+        }
+        h2 { 
+            color: #1e3c72; 
+            border-bottom: 3px solid #ffd700;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        .gallery { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 15px; 
+            justify-content: center;
+        }
+        .gallery img { 
+            width: 280px; 
+            height: 200px; 
+            object-fit: cover; 
+            border-radius: 8px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+            border: 3px solid #eaeaea;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        footer { 
+            text-align: center; 
+            padding: 20px; 
+            background-color: #2c3e50; 
+            color: white;
+            margin-top: 40px;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            border-radius: 10px;
+            border: none;
+            margin-top: 20px;
+        }
+        address {
+            font-style: normal;
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #1e3c72;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .price-item {
+            background-color: #f8f9fa;
+            padding: 10px 15px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+            border-left: 4px solid #ffd700;
+        }
+        .highlight {
+            color: #1e3c72;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang ke Istana Neuschwanstein</h1>
+        <p>Kastil Dongeng Bavaria yang Menginspirasi Dunia</p>
+    </header>
+
+    <nav>
+        <a href="#location">Lokasi</a>
+        <a href="#photos">Foto</a>
+        <a href="#description">Deskripsi</a>
+        <a href="#history">Sejarah</a>
+        <a href="#opening-hours">Jam Kunjungan</a>
+        <a href="#ticket-prices">Harga Tiket</a>
+        <a href="#architecture">Arsitektur</a>
+        <a href="#gallery">Galeri</a>
+        <a href="#contact">Kontak</a>
+        <a href="#fun-facts">Tentang Kami</a>
+    </nav>
+
+    <section id="location">
+        <h2>Lokasi</h2>
+        <p>Istana Neuschwanstein terletak di:</p>
+        <address>
+            Neuschwansteinstraße 20,<br>
+            87645 Schwangau,<br>
+            Bavaria, Jerman
+        </address>
+        <p>Istana ini berdiri megah di puncak bukit terpencil di Pegunungan Alpen Bavaria, dekat desa Hohenschwangau dan Füssen.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2694.567303691188!2d10.746469976884785!3d47.55755737118732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479d2dfd102c8f9b%3A0xa1f2bf4dd5c5fb1d!2sNeuschwanstein%20Castle!5e0!3m2!1sen!2sde!4v1646246787647!5m2!1sen!2sde" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section id="photos">
+        <h2>Foto Utama</h2>
+        <div class="gallery">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Neuschwanstein_castle.jpg/800px-Neuschwanstein_castle.jpg" alt="Pemandangan Istana Neuschwanstein dari kejauhan">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Neuschwanstein_Castle_-_Interior_%281%29.jpg/800px-Neuschwanstein_Castle_-_Interior_%281%29.jpg" alt="Interior mewah istana">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Neuschwanstein_Castle_viewed_from_Marienbr%C3%BCcke.jpg/800px-Neuschwanstein_Castle_viewed_from_Marienbr%C3%BCcke.jpg" alt="Istana dilihat dari Jembatan Mary">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Winter_Neuschwanstein_Castle.jpg/800px-Winter_Neuschwanstein_Castle.jpg" alt="Istana di musim salju">
+        </div>
+    </section>
+
+    <section id="description">
+        <h2>Deskripsi</h2>
+        <p>Istana Neuschwanstein adalah kastil bergaya Romanesque Revival abad ke-19 yang terletak di bukit terpencil di Bavaria, Jerman. Kastil ini dibangun atas perintah Raja Ludwig II dari Bavaria sebagai penghormatan kepada komposer Richard Wagner dan telah menjadi salah satu tujuan wisata paling populer di Eropa.</p>
+        <p>Dikenal sebagai "kastil dongeng" yang menginspirasi Kastil Sleeping Beauty Disney, Neuschwanstein menawarkan pemandangan spektakuler pegunungan Alpen dan danau di sekitarnya. Meskipun terlihat seperti kastil abad pertengahan, Neuschwanstein dilengkapi dengan teknologi modern untuk zamannya, termasuk sistem pemanas udara pusat, air mengalir di semua lantai, dan toilet dengan sistem penyiraman otomatis.</p>
+    </section>
+
+    <section id="history">
+        <h2>Sejarah</h2>
+        <p>Pembangunan Istana Neuschwanstein dimulai pada tahun 1869 di atas reruntuhan dua kastil abad pertengahan. Raja Ludwig II membiayai pembangunan dengan uang pribadinya dan melalui pinjaman besar, bukan dengan uang negara Bavaria.</p>
+        <p>Sayangnya, Raja Ludwig II hanya sempat tinggal di istana ini selama 172 hari sebelum kematiannya yang misterius pada tahun 1886. Pada saat itu, hanya sepertiga dari rencana interior yang telah selesai. Hanya tujuh minggu setelah kematiannya, istana ini dibuka untuk umum.</p>
+        <p>Selama Perang Dunia II, istana ini digunakan oleh Nazi sebagai gudang untuk karya seni yang dijarah. Untungnya, istana ini tidak mengalami kerusakan selama perang.</p>
+    </section>
+
+    <section id="opening-hours">
+        <h2>Jam Kunjungan</h2>
+        <p>Istana Neuschwanstein buka untuk kunjungan sepanjang tahun dengan jadwal berikut:</p>
+        <ul>
+            <li><span class="highlight">April hingga 15 Oktober:</span> 09:00 - 18:00</li>
+            <li><span class="highlight">16 Oktober hingga Maret:</span> 10:00 - 16:00</li>
+            <li><span class="highlight">Hari Natal (24 Desember):</span> Tutup</li>
+            <li><span class="highlight">Tahun Baru (31 Desember):</span> Tutup</li>
+            <li><span class="highlight">1 Januari:</span> 13:00 - 16:00</li>
+        </ul>
+        <p><em>Catatan:</em> Kunjungan hanya dilakukan dengan tur berpemandu yang berlangsung sekitar 35 menit. Tiket harus dipesan terlebih dahulu, terutama di musim panas.</p>
+    </section>
+
+    <section id="ticket-prices">
+        <h2>Harga Tiket</h2>
+        <div class="price-item">Dewasa: €18 (tur reguler)</div>
+        <div class="price-item">Anak (bawah 18 tahun): Gratis</div>
+        <div class="price-item">Mahasiswa & Senior: €17</div>
+        <div class="price-item">Tur Royal (termasuk Hohenschwangau): €31</div>
+        <div class="price-item">Tur King's Premium (tur khusus): €30</div>
+        <p><em>Catatan:</em> Harga termasuk biaya reservasi online €2.50. Tiket hanya dapat dibeli di Pusat Tiket Hohenschwangau, bukan di istana itu sendiri.</p>
+    </section>
+
+    <section id="architecture">
+        <h2>Arsitektur</h2>
+        <p>Istana Neuschwanstein dirancang oleh arsitek Christian Jank dan direalisasikan oleh Eduard Riedel. Gaya arsitekturnya adalah Romanesque Revival, terinspirasi oleh kastil-kastil Jerman abad pertengahan.</p>
+        <p>Fitur arsitektur yang menonjol:</p>
+        <ul>
+            <li><span class="highlight">Menara Utama:</span> Tinggi 65 meter dengan atrun kerucut</li>
+            <li><span class="highlight">Singers' Hall (Sängersaal):</span> Ruang terbesar di istana, terinspirasi oleh Wartburg Castle</li>
+            <li><span class="highlight">Throne Hall:</span> Meskipun takhta tidak pernah dipasang, ruangan ini dirancang dengan mewah bergaya Bizantium</li>
+            <li><span class="highlight">Grotto:</span> Gua buatan dengan stalaktit dan danau kecil, menghubungkan ruang tamu dan studio</li>
+            <li><span class="highlight">Kapel:</span> Bergaya Gothic dengan altar marmer dan jendela kaca patri</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Galeri</h2>
+        <div class="gallery">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Neuschwanstein_Thronsaal.jpg/800px-Neuschwanstein_Thronsaal.jpg" alt="Throne Hall yang megah">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Neuschwanstein_Castle_-_Singers_Hall.jpg/800px-Neuschwanstein_Castle_-_Singers_Hall.jpg" alt="Singers' Hall">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Schlafzimmer_Ludwig_II._Neuschwanstein.jpg/800px-Schlafzimmer_Ludwig_II._Neuschwanstein.jpg" alt="Kamar tidur Raja Ludwig II">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Neuschwanstein_Castle_-_Grotto.jpg/800px-Neuschwanstein_Castle_-_Grotto.jpg" alt="Gua buatan di istana">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Neuschwanstein_Castle_from_Marienbr%C3%BCcke_2019.jpg/800px-Neuschwanstein_Castle_from_Marienbr%C3%BCcke_2019.jpg" alt="Pemandangan dari Marienbrücke">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Neuschwanstein_Castle_Autumn_View.jpg/800px-Neuschwanstein_Castle_Autumn_View.jpg" alt="Istana di musim gugur">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Neuschwanstein_Castle_at_night.jpg/800px-Neuschwanstein_Castle_at_night.jpg" alt="Istana di malam hari">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Neuschwanstein_aerial_view.jpg/800px-Neuschwanstein_aerial_view.jpg" alt="Pemandangan udara istana">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak & Informasi</h2>
+        <p><strong>Pusat Tiket Hohenschwangau:</strong></p>
+        <p>Alpenstraße 12, 87645 Schwangau, Jerman</p>
+        <p>Telepon: +49 (0)8362 93083-0</p>
+        <p>Email: info@ticket-center-hohenschwangau.de</p>
+        <p>Website Resmi: <a href="https://www.neuschwanstein.de" target="_blank">www.neuschwanstein.de</a></p>
+        <p><strong>Untuk reservasi online:</strong> <a href="https://www.hohenschwangau.de" target="_blank">www.hohenschwangau.de</a></p>
+    </section>
+
+    <section id="fun-facts">
+        <h2>Tentang Kami</h2>
+        <ul>
+            <li>Felix Antonio</li>
+            <li>Jeremia Alexandriano Setiadi</li>
+            <li>David Kent Halim Salim</li>
+            <li>Tiffany Emelia</li>
+            <li>Nicole Cecilia</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Situs Informasi Istana Neuschwanstein. Semua hak cipta dilindungi undang-undang.</p>
+        <p>Situs ini tidak berafiliasi dengan Bavarian Palace Department. Informasi untuk tujuan edukasi.</p>
+    </footer>
+</body>
+</html>

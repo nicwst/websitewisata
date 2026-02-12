@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Disneyland Tokyo</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #f0f7ff; 
+            color: #333; 
+            line-height: 1.6;
+        }
+        header { 
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white; 
+            text-align: center; 
+            padding: 30px 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            opacity: 0.9;
+            font-style: italic;
+        }
+        nav { 
+            background-color: #2c3e50; 
+            color: white; 
+            padding: 15px; 
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        nav a { 
+            color: white; 
+            margin: 0 20px; 
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        nav a:hover { 
+            color: #ffd700;
+            background-color: rgba(255,255,255,0.1);
+        }
+        section { 
+            padding: 30px; 
+            margin: 25px auto; 
+            background-color: white; 
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            max-width: 1200px;
+        }
+        h2 { 
+            color: #1e3c72; 
+            border-bottom: 3px solid #ffd700;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        .gallery { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 15px; 
+            justify-content: center;
+        }
+        .gallery img { 
+            width: 280px; 
+            height: 200px; 
+            object-fit: cover; 
+            border-radius: 8px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+            border: 3px solid #eaeaea;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        footer { 
+            text-align: center; 
+            padding: 20px; 
+            background-color: #2c3e50; 
+            color: white;
+            margin-top: 40px;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            border-radius: 10px;
+            border: none;
+            margin-top: 20px;
+        }
+        address {
+            font-style: normal;
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #1e3c72;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .price-item {
+            background-color: #f8f9fa;
+            padding: 10px 15px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+            border-left: 4px solid #ffd700;
+        }
+        .highlight {
+            color: #1e3c72;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Selamat Datang di Disneyland Tokyo</h1>
+
+        <p>Yume to Maho no Oukoku (The Kingdom of Dreams and Magic)</p>
+
+    </header>
+
+
+
+    <nav>
+
+        <a href="#location">Lokasi</a>
+
+        <a href="#photos">Foto</a>
+
+        <a href="#description">Deskripsi</a>
+
+        <a href="#history">Sejarah</a>
+
+        <a href="#opening-hours">Jam Kunjungan</a>
+
+        <a href="#ticket-prices">Harga Tiket</a>
+
+        <a href="#gallery">Galeri</a>
+
+        <a href="#contact">Kontak</a>
+
+        <a href="#fun-facts">Tentang Kami</a>
+
+    </nav>
+
+
+
+    <section id="location">
+
+        <h2>Lokasi</h2>
+
+        <p>Disneyland terletak di:</p>
+
+        <address>
+
+           1-1 Maihama, Urayasu, Chiba 279-0031, Jepang.
+
+       
+
+        </address>
+
+        <p>Tokyo Disneyland berlokasi strategis di tepi Teluk Tokyo, Urayasu, dengan akses transportasi sangat cepat dari pusat kota Tokyo. </p>
+
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3244.3168239014385!2d139.87819997637847!3d35.6328963726027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60187d03114737b3%3A0xe4d93636d509d3cb!2sTokyo%20Disneyland!5e0!3m2!1sid!2sid!4v1715678901234!5m2!1sid!2sid" 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </section>
+
+
+
+    <section id="photos">
+
+        <h2>Foto Utama</h2>
+
+        <div class="gallery">
+
+            <img src="coasterdis.jpg" alt="Pemandangan Istana Neuschwanstein dari kejauhan">
+
+            <img src="arungjeram.jpg" alt="Interior mewah istana">
+
+            <img src="baymax.jpg" alt="Istana dilihat dari Jembatan Mary">
+
+            <img src="castle.jpg" alt="Istana di musim salju">
+
+        </div>
+
+    </section>
+
+
+
+    <section id="description">
+
+        <h2>Deskripsi</h2>
+
+        <p>Wujudkan petualangan ajaib di Tokyo Disneyland dengan panduan wisata terlengkap yang dirancang untuk menyempurnakan perjalanan Anda. Kami menyajikan informasi terkini mulai dari harga tiket, jam operasional, hingga strategi menggunakan Disney Premier Access untuk menghindari antrean panjang di wahana populer seperti Fantasyland dan Tomorrowland. Dilengkapi dengan tips transportasi praktis dari pusat kota Tokyo dan rekomendasi kuliner musiman, website ini adalah asisten setia Anda dalam merencanakan liburan keluarga yang efisien namun tetap penuh keajaiban di jantung Jepang.</p>
+
+    </section>
+
+
+
+    <section id="history">
+
+        <h2>Sejarah</h2>
+
+        <p>Dibuka pada 15 April 1983, Tokyo Disneyland merupakan taman bermain Disney pertama yang dibangun di luar Amerika Serikat. Proyek ini merupakan hasil kerja sama antara The Walt Disney Company dan Oriental Land Co., Ltd., yang berhasil mengubah lahan reklamasi di Urayasu, Chiba, menjadi destinasi wisata paling ikonik di Asia hingga saat ini.</p>
+
+    </section>
+
+
+
+    <section id="opening-hours">
+
+        <h2>Jam Kunjungan</h2>
+
+        <p>Disneyland buka untuk kunjungan sepanjang tahun dengan jadwal berikut:</p>
+
+        <ul>
+
+            <li><span class="highlight">Senin-Jumat</span> 09.00 – 21.00</li>
+
+            <li><span class="highlight">Sabtu-Minggu:</span> 09.00 – 21.00</li>
+
+            <li><span class="highlight">Libur Nasional (Jepang):</span> 09.00 – 21.00</li>
+
+             </ul>
+
+       
+
+    </section>
+
+
+
+    <section id="ticket-prices">
+
+        <h2>Harga Tiket</h2>
+
+        <div class="price-item"><li> Disneyland Tokyo (1-Day Passport) : 840k </li></div>
+
+           
+
+        <div class="price-item"> <li>Disneyland Tokyo + Disney Premiere Access/Wahana  : 840k + 215k (per wahana)</li></div>
+
+           
+
+        <div class="price-item"><li>Disneyland + Hotel Disneyland (Economy) + Disney Premiere Access : 4800k - 6400k </li>
+
+           
+
+    </div>
+
+
+       
+
+    </section>
+
+
+
+   
+
+    <section id="gallery">
+
+        <h2>Galeri</h2>
+
+        <div class="gallery">
+
+            <img src="oldcoaster.jpg" alt="Throne Hall yang megah">
+
+            <img src="pooh.jpg" alt="Singers' Hall">
+
+            <img src="piramid.jpg" alt="Kamar tidur Raja Ludwig II">
+
+            <img src="show.jpg" alt="Gua buatan di istana">
+
+            <img src="statue.jpg" alt="Pemandangan dari Marienbrücke">
+
+            <img src="dumbo.jpg" alt="Istana di musim gugur">
+
+            <img src="tangled.jpg" alt="Istana di malam hari">
+
+            <img src="kastil.jpg" alt="Pemandangan udara istana">
+
+        </div>
+
+    </section>
+
+
+
+    <section id="contact">
+
+        <h2>Kontak & Informasi</h2>
+
+        <p><strong>Pusat Tiket Disneyland Tokyo:</strong></p>
+
+        <p>1-1 Maihama, Urayasu, Chiba 279-0031, Jepang</p>
+
+        <p>Telepon: +81 50-3090-2613</p>
+
+        <p>@reservation.tokyodisneyresort.jp</p>
+
+        <p>Website Resmi: <a href="https://www.tokyodisneyresort.jp/" target="_blank">www.</a></p>
+
+        <p><strong>Untuk reservasi online:</strong> <a href="https://reserve.tokyodisneyresort.jp/en/" target="_blank">www.</a></p>
+
+    </section>
+
+
+
+    <section id="fun-facts">
+
+        <h2>Fakta Menarik</h2>
+
+        <ul>
+            <li>Felix Antonio</li>
+            <li>Jeremia Alexandriano Setiadi</li>
+            <li>David Kent Halim Salim</li>
+            <li>Tiffany Emelia</li>
+            <li>Nicole Cecilia</li>
+        </ul>
+    </section>
+
+
+
+    <footer>
+
+        <p>&copy; 2026 Panduan Informasi Tokyo Disneyland. Semua hak cipta dilindungi undang-undang..</p>
+
+        <p>Situs ini adalah platform independen dan tidak berafiliasi dengan The Walt Disney Company atau Oriental Land Co., Ltd. Seluruh informasi disajikan hanya untuk tujuan edukasi.</p>
+
+    </footer>
+
+</body>
+
+</html>
